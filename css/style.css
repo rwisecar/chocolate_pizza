@@ -44,7 +44,7 @@ header {
   font-family: 'Yellowtail', Helvetica, sans-serif;
 
   position: absolute;
-  bottom: 17px;
+  bottom: 20px;
   left: 45px;
 }
 
@@ -55,16 +55,19 @@ header {
 
   text-transform: uppercase;
   position: absolute;
-  bottom: 20px;
+  bottom: 25px;
   left: 50px;
 }
 
 .social_icons {
-  display: inline;
   float: right;
   position: absolute;
   right: 0;
   bottom: 30px;
+}
+
+.icon {
+  padding-left: 10px;
 }
 
 /* *****************************
@@ -94,16 +97,24 @@ section {
     top: 110px;
 }
 
-.print {
+.stupidPrint img {
   position: absolute;
-  display: block;
-  right: 0;
+  top: 117px;
+  right: 30px;
+}
 
+.stupidPrint p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  color: #ccc;
+  position: absolute;
+  top: 100px;
+  right: 0;
 }
 
 #chocopizza {
-  max-width: 920px;
-  margin: 0 auto;
+  min-width: 920px;
+  margin-top: 15px;
 
 
 }
