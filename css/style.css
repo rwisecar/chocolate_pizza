@@ -62,3 +62,90 @@ header {
   right: 0;
   bottom: 30px;
 }
+
+/* *****************************
+FOOTER CONTENT
+***************************** */
+
+
+.wrap {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.blog_info {
+  position: relative;
+}
+
+.profileimg img{
+  display: block;
+  float: left;
+  margin-left: 1%;
+  position: relative;
+}
+
+.profile {
+  font-family: "Slabo", serif;
+
+}
+.writer_name {
+  font-size: 20px;
+  padding-left: 2%;
+  display: inline;
+  text-align: left;
+  margin-top: 0;
+  position: relative;
+}
+
+.profile p {
+  left: 2%;
+  font-size: 18px;
+  position: relative;
+  width: 75%;
+
+}
+#button {
+  background-color: #bc7058;
+  color: white;
+  position: relative;
+  margin: 0 auto;
+  padding: 2% 4% 2% 4%;
+  border: none;
+  float: right;
+  right: 0;
+  display: inline;
+  bottom: 75px;
+  width: 193px;
+
+}
+
+#footer {
+  clear: both;
+  position: relative;
+}
+
+#footer img{
+
+  padding: 0;
+  z-index: 10;
+  position: absolute;
+  right: 49%;
+  bottom: 28px;
+}
+#lefthr {
+  width: 100%;
+  float: left;
+  color: #999999;
+  margin: auto 0;
+  padding: 0;
+  z-index: 1;
+
+}
+
+#footer p {
+  text-align: center;
+  position: relative;
+  top: 40px;
+  color: #555;
+  font-size: 12px;
+}
