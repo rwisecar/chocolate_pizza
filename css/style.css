@@ -64,14 +64,54 @@ header {
 }
 
 /* *****************************
-FOOTER CONTENT
+MAIN BODY CONTENT
 ***************************** */
 
+section {
+  padding-top: 40px;
+  position: relative;
+}
 
-.wrap {
+.blog_title {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    color: #333;
+    padding-top:
+    left: 0;
+}
+
+.blog_date {
+    font-family: "Rajdhani", sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #ccc;
+    left: 0;
+    margin: 0;
+    top: 110px;
+}
+
+.print {
+  position: absolute;
+  display: block;
+  right: 0;
+
+}
+/*
+.print p {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+}*/
+
+#chocopizza {
   max-width: 920px;
   margin: 0 auto;
+
+
 }
+/* *****************************
+FOOTER CONTENT
+***************************** */
 
 .blog_info {
   border-top: #ccc solid 15px;
