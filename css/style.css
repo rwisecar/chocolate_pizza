@@ -2,6 +2,9 @@
 BASE ELEMENT STYLES
 ***************************** */
 
+* {
+  box-sizing: border-box;
+}
 /* body wrap to center content */
 .wrap {
   max-width: 920px;
@@ -14,6 +17,7 @@ h1 {
 
 p {
   color: #555;
+
 }
 
 /* *****************************
@@ -96,12 +100,6 @@ section {
   right: 0;
 
 }
-/*
-.print p {
-  position: absolute;
-  display: inline-block;
-  right: 0;
-}*/
 
 #chocopizza {
   max-width: 920px;
@@ -112,17 +110,26 @@ section {
 /* *****************************
 RECIPE CONTENT
 ***************************** */
+.recipetext {
+  text-indent: 30px;
+  color: #555;
+  font-family: "Slabo", serif;
+  padding-bottom: 2%;
 
-.recipe {
+}
+
+#recipe {
   background-image: url("../img/list-bg.png");
-  height: 305px;
   display: block;
   float: left;
   font-family: "Patrick Hand", sans-serif;
   font-size: 20px;
-  padding: 7%;
+  width: 920px;
+  height: 305px;
   background: cover;
   background-repeat: no-repeat;
+  padding-left: 6%;
+  padding-top: 6%;
 }
 
 .recipe_left {
@@ -132,6 +139,10 @@ RECIPE CONTENT
 
 }
 
+.strikeout {
+  text-decoration: line-through;
+}
+
 /* *****************************
 FOOTER CONTENT
 ***************************** */
@@ -139,6 +150,8 @@ FOOTER CONTENT
 .blog_info {
   border-top: #ccc solid 15px;
   position: relative;
+  top: 35px;
+  clear: both;
 }
 
 .profileimg img{
@@ -149,7 +162,7 @@ FOOTER CONTENT
 }
 
 .profileimg {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .profile {
@@ -188,19 +201,18 @@ FOOTER CONTENT
 }
 
 #footer {
-
   clear: both;
   position: relative;
 }
 
 #footer img{
-
   padding: 0;
   z-index: 10;
   position: absolute;
   right: 49%;
   bottom: 28px;
 }
+
 #lefthr {
   width: 100%;
   float: left;
@@ -208,7 +220,6 @@ FOOTER CONTENT
   margin: auto 0;
   padding: 0;
   z-index: 1;
-
 }
 
 #footer p {
@@ -217,4 +228,6 @@ FOOTER CONTENT
   top: 40px;
   color: #555;
   font-size: 12px;
+  font-family: "Slabo", serif;
+
 }
