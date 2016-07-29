@@ -9,7 +9,11 @@ BASE ELEMENT STYLES
 }
 
 h1 {
+  color: #333;
+}
 
+p {
+  color: #555;
 }
 
 /* *****************************
@@ -28,6 +32,7 @@ header {
   margin-top: 0;
   position: absolute;
   bottom: 30px;
+  left: 0;
 }
 
 .logo_title {
@@ -36,7 +41,7 @@ header {
 
   position: absolute;
   bottom: 17px;
-  left: 50px;
+  left: 45px;
 }
 
 .logo_tagline {
@@ -54,6 +59,6 @@ header {
   display: inline;
   float: right;
   position: absolute;
-  left: 65%;
-  top: 50px;
+  right: 0;
+  bottom: 30px;
 }
