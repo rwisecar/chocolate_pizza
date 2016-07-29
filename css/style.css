@@ -1,0 +1,64 @@
+/* *****************************
+BASE ELEMENT STYLES
+***************************** */
+
+/* body wrap to center content */
+.wrap {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+/* *****************************
+HEADER CONTENT
+***************************** */
+
+header {
+  border-bottom: #ccc solid 15px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.logo {
+  display: block
+  float: left;
+  margin-top: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+}
+
+.logo_title {
+  display: inline;
+  font-family: 'Yellowtail', Helvetica, sans-serif;
+
+  position: absolute;
+  bottom: 17px;
+  left: 45px;
+}
+
+.logo_tagline {
+  color: #ccc;
+  font-family: 'Dosis', Helvetica, sans-serif;
+  font-size: 10px;
+
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+
+.social_icons {
+  display: inline;
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
