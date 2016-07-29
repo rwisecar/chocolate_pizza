@@ -110,6 +110,29 @@ section {
 
 }
 /* *****************************
+RECIPE CONTENT
+***************************** */
+
+.recipe {
+  background-image: url("../img/list-bg.png");
+  height: 305px;
+  display: block;
+  float: left;
+  font-family: "Patrick Hand", sans-serif;
+  font-size: 20px;
+  padding: 7%;
+  background: cover;
+  background-repeat: no-repeat;
+}
+
+.recipe_left {
+  display: block;
+  float: left;
+  padding-right: 20%;
+
+}
+
+/* *****************************
 FOOTER CONTENT
 ***************************** */
 
@@ -165,6 +188,7 @@ FOOTER CONTENT
 }
 
 #footer {
+
   clear: both;
   position: relative;
 }
