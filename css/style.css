@@ -74,6 +74,7 @@ FOOTER CONTENT
 }
 
 .blog_info {
+  border-top: #ccc solid 15px;
   position: relative;
 }
 
@@ -82,6 +83,10 @@ FOOTER CONTENT
   float: left;
   margin-left: 1%;
   position: relative;
+}
+
+.profileimg {
+  padding-top: 50px;
 }
 
 .profile {
